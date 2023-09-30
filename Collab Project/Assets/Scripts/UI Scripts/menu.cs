@@ -4,11 +4,17 @@ using UnityEngine;
 
 public class menu : MonoBehaviour
 {
+    HealtScript HealtScript;
     float healtCounter;
     [SerializeField] float healtTime;
     [SerializeField] GameObject heart;
 
+
     bool addhealt = false;
+    private void Awake()
+    {
+        HealtScript = FindObjectOfType<HealtScript>();
+    }
 
     private void Update()
     {
@@ -35,7 +41,7 @@ public class menu : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                // buraya scripte healt scriptini çaðýrýp buraya örnek currentHealt+=25 tarzý biþey yazýlcak
+                HealtScript.currentHealt += 30;
                 heart.SetActive(false);
             }
         }
