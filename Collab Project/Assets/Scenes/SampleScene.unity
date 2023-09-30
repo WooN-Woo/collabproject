@@ -180,6 +180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b18137c0e7a271947a9f97fdb63f4c94, type: 3}
+--- !u!1 &659636412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8974641747123664368, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+  m_PrefabInstance: {fileID: 699846713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &699846713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -235,6 +240,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8974641747123664368, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Name
+      value: bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974641747123664370, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e1b880a530e04df489f52b7d48c90491, type: 3}
     - target: {fileID: 8974641747505985314, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -243,6 +256,26 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8974641747683713909, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974641747683713909, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974641747683713909, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974641747902492165, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Name
+      value: ArcherBow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8974641748661455105, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ac3f5a4c68b2a842af93ba4307070e3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
 --- !u!1 &699846714 stripped
@@ -373,6 +406,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1659188365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2219825779598914260, guid: 9daab631b2c90424bbe360c00ec52ed3, type: 3}
+  m_PrefabInstance: {fileID: 1972774918}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1972774918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -481,6 +519,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healtTime: 30
   heart: {fileID: 699846714}
+  sword: {fileID: 1659188365}
+  swordImage: {fileID: 2059845069}
+  bow: {fileID: 0}
+  bowImage: {fileID: 659636412}
 --- !u!114 &1972774921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -495,3 +537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealt: 100
   currentHealt: 0
+--- !u!1 &2059845069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8974641748661455167, guid: 9de80212596c7584c9687e5311a4b555, type: 3}
+  m_PrefabInstance: {fileID: 699846713}
+  m_PrefabAsset: {fileID: 0}
