@@ -14,9 +14,10 @@ public class MenuScript : MonoBehaviour
 
     public void play()
     {
-        SceneManager.LoadScene(1);
         src.clip = sounds1;
         src.Play();
+        SceneManager.LoadScene(1);
+      
     }
 
     public void quit()
