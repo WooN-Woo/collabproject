@@ -123,6 +123,16 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &298358934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6079601772877062055, guid: 7604d23b666f745429c510c07f7c7302, type: 3}
+  m_PrefabInstance: {fileID: 5373201521223381048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &390961590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8699289780118101153, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+  m_PrefabInstance: {fileID: 719955559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &719955559
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -194,6 +204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: gameCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8699289778864339867, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Name
+      value: Archer
+      objectReference: {fileID: 0}
     - target: {fileID: 8699289778992407228, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -202,6 +216,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8699289779150223083, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Color.b
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699289779150223083, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699289779150223083, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7176471
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699289779659415660, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e1b880a530e04df489f52b7d48c90491, type: 3}
+    - target: {fileID: 8699289779659415662, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Name
+      value: bow
+      objectReference: {fileID: 0}
+    - target: {fileID: 8699289780118101151, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5ac3f5a4c68b2a842af93ba4307070e3, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f1df5b526e6e5c24b8f3951675418f90, type: 3}
 --- !u!1 &1058170021 stripped
@@ -523,9 +561,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1984055669}
     - target: {fileID: 410881967879891644, guid: 7604d23b666f745429c510c07f7c7302, type: 3}
+      propertyPath: sword
+      value: 
+      objectReference: {fileID: 298358934}
+    - target: {fileID: 410881967879891644, guid: 7604d23b666f745429c510c07f7c7302, type: 3}
       propertyPath: healtTime
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 410881967879891644, guid: 7604d23b666f745429c510c07f7c7302, type: 3}
+      propertyPath: swordImage
+      value: 
+      objectReference: {fileID: 390961590}
     - target: {fileID: 6078060293710429737, guid: 7604d23b666f745429c510c07f7c7302, type: 3}
       propertyPath: m_Name
       value: Player
