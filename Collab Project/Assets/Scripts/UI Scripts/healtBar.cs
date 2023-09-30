@@ -6,15 +6,31 @@ using UnityEngine.UI;
 public class healtBar : MonoBehaviour
 {
     [SerializeField] Slider slider;
+    HealtScript HealtScript;
 
-    public void setMaxHealt(int healt)
+    private void Awake()
     {
-        slider.maxValue = healt;
-        slider.value = healt;
+        HealtScript= FindObjectOfType<HealtScript>();
     }
 
-    public void setHealt(int healt)
+    private void Start()
     {
-        slider.value = healt;
+        setMaxHealt();
+    }
+
+    private void Update()
+    {
+        setHealt();
+    }
+
+    public void setMaxHealt()
+    {
+        slider.maxValue = HealtScript.maxHealt;
+        slider.value = HealtScript.maxHealt;
+    }
+
+    public void setHealt()
+    {
+        slider.value = HealtScript.currentHealt;
     }
 }
