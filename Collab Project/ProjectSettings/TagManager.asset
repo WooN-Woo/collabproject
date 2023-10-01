@@ -5,8 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - bullet
-  - whatIsWall
-  - ground
   layers:
   - Default
   - TransparentFX
@@ -15,10 +13,10 @@ TagManager:
   - Water
   - UI
   - ground
-  - whatIsWall
-  - whatIsPlayer
-  - whatIsGround
-  - whatIsObjects
+  - Arrows
+  - 
+  - 
+  - 
   - 
   - 
   - 
