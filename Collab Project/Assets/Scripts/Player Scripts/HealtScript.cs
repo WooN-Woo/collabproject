@@ -16,7 +16,7 @@ public class HealtScript : MonoBehaviour
     {
         if (other.CompareTag("bullet"))
         {
-            currentHealt -= 20;
+            currentHealt -= 2;
         }
     }
 }
